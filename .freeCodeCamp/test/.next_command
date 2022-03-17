@@ -686,3 +686,24 @@ history -a
 diff --color kitty_ipsum_2.txt doggy_ipsum_2.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo "# Learn-Advanced-Bash-by-Building-a-Kitty-Ipsum-Translator" >> README.md
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git init
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add README.md
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "first commit"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git branch -M main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/Sharlock221b-svg/Learn-Advanced-Bash-by-Building-a-Kitty-Ipsum-Translator.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
